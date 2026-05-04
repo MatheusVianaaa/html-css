@@ -22,6 +22,7 @@
             url('imagens/gatito.gif'),
             url('imagens/gatito.gif'),
             url('imagens/gatito.gif');
+            background-position: left top, right bottom, center center, left center,right top, right center, left bottom, center top, center bottom;
             height: 98vh;
             border: 1px solid black;
             border-radius: 20px;
@@ -29,15 +30,34 @@
             gap: 100px;
             background-repeat: no-repeat;
         }
-        div#g1{
+        /* celular */
+@media (max-width: 768px) {
+      div.gatito{
+            background-image: 
+            url('imagens/gatito.gif'),
+            url('imagens/gatito.gif'),
+            url('imagens/gatito.gif'),
+            url('imagens/gatito.gif'),
+            url('imagens/gatito.gif'),
+            url('imagens/gatito.gif'),
+            url('imagens/gatito.gif'),
+            url('imagens/gatito.gif'),
+            url('imagens/gatito.gif');
             background-position: left top, right bottom, center center, left center,right top, right center, left bottom, center top, center bottom;
+            background-size: 150px 150px;
+            height: 98vh;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin: 15px;
+            gap: 100px;
+            background-repeat: no-repeat;
         }
+}
     </style>
 </head>
 <body>
      <h1 class="tittle">Gatito Diferents Positions</h1>
-    <div class="gatito" id="g1">
-
+    <div class="gatito">
     </div>
 
 </body>
