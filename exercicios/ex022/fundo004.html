@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    <style>
+        body{
+            font: 20px Arial, Helvetica, sans-serif, bolder;
+            text-align: center;
+            color: white;
+            background-image: linear-gradient(to right, rgb(45, 45, 97), rgb(27, 27, 66));
+        }
+        div.gatito{
+            background-image: 
+            url('imagens/gatito.gif'),
+            url('imagens/gatito.gif'),
+            url('imagens/gatito.gif'),
+            url('imagens/gatito.gif'),
+            url('imagens/gatito.gif'),
+            url('imagens/gatito.gif'),
+            url('imagens/gatito.gif'),
+            url('imagens/gatito.gif'),
+            url('imagens/gatito.gif');
+            height: 98vh;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin: 100px;
+            gap: 100px;
+            background-repeat: no-repeat;
+        }
+        div#g1{
+            background-position: left top, right bottom, center center, left center,right top, right center, left bottom, center top, center bottom;
+        }
+    </style>
+</head>
+<body>
+     <h1 class="tittle">Gatito Diferents Positions</h1>
+    <div class="gatito" id="g1">
+
+    </div>
+
+</body>
+</html>
